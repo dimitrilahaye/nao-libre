@@ -1,8 +1,18 @@
 {
   "name": "nao-lib",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "Dimitri Lahaye <contact@dimitrilahaye.net>",
+  "bugs": {
+    "url": "https://github.com/dimitrilahaye/nao-libre/issues",
+    "email": "contact@dimitrilahaye.net"
+  },
+  "homepage": "https://nao-libre.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitrilahaye/nao-libre.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
