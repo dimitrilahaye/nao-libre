@@ -87,3 +87,12 @@ a {
   align-items: center;
   z-index: 9999;
 }
+
+.go-to-search,
+.search {
+  background: linear-gradient(80deg, #002300 35%, #034003); 
+}
+
+.go-to-search {
+  margin: 10px 0;
+}

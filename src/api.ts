@@ -37,10 +37,7 @@ async function getWaitingTimeForStop(stop: string) {
   return json;
 }
 
-async function getData(stop: string | null) {
-  if (stop === null) {
-    throw new Error('No "arret" parameter');
-  }
+async function getData(stop: string) {
   return await getWaitingTimeForStop(stop);
 }
 
