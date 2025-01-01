@@ -23,14 +23,12 @@ html, body {
   align-items: center;
   height: auto;
   padding: 10px;
-  color: white;
   background: linear-gradient(80deg, #002300 35%, #034003);
   box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.3);
   font-size: 14px;
 }
 
 a {
-  color: white;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -38,17 +36,12 @@ a {
 #content {
   flex: 1;
   padding: 20px;
-  background: #f0f0f0;
 }
 
 .hero.is-primary {
   background: linear-gradient(80deg, #002300 35%, #034003);
   box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
   z-index: 1;
-}
-
-.hero.is-primary .title, .hero.is-primary .subtitle {
-  color: white;
 }
 
 .badgeindice {
