@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.6 (2025-01-02)
+
+
+### 📦 Refactor
+
+* **ui:** move initializeRefresh after waiting loop ([575841f](https://github.com/dimitrilahaye/nao-libre/commit/575841f6b42a41a2c8ccefc36e0fe2f995f8c915))
+
 ## 1.1.5 (2025-01-02)
 
 
