@@ -28,6 +28,6 @@ Les codes de chaque arrêt peuvent être récupérés via un call API ici [https
 
 ## Screenshots
 
-<img src="readme/2.png" width="25%">
-<img src="readme/3.png" width="25%">
-<img src="readme/4.png" width="25%">
+| Screenshot 1    | Screenshot 2 | Screenshot 3    |
+| -------- | ------- | -------- |
+| <img src="readme/2.png" width="100%">  | <img src="readme/3.png" width="100%">    | <img src="readme/4.png" width="100%"> |
