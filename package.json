@@ -1,7 +1,7 @@
 {
   "name": "nao-lib",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "author": "Dimitri Lahaye <contact@dimitrilahaye.net>",
   "license": "GPL-3.0",
@@ -22,11 +22,31 @@
   },
   "standard-version": {
     "types": [
-      { "type": "feat", "section": "✨ Features", "hidden": false },
-      { "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },
-      { "type": "chore", "section": "🛠️ Maintenance", "hidden": false },
-      { "type": "refactor", "section": "📦 Refactor", "hidden": false },
-      { "type": "docs", "section": "📚 Documentation", "hidden": false }
+      {
+        "type": "feat",
+        "section": "✨ Features",
+        "hidden": false
+      },
+      {
+        "type": "fix",
+        "section": "🐛 Bug Fixes",
+        "hidden": false
+      },
+      {
+        "type": "chore",
+        "section": "🛠️ Maintenance",
+        "hidden": false
+      },
+      {
+        "type": "refactor",
+        "section": "📦 Refactor",
+        "hidden": false
+      },
+      {
+        "type": "docs",
+        "section": "📚 Documentation",
+        "hidden": false
+      }
     ]
   },
   "devDependencies": {

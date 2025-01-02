@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.1 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* **release:** 1.0.0 ([d12cfbc](https://github.com/dimitrilahaye/nao-libre/commit/d12cfbc883f4a453a050fe77389dbea2cecb3570))
+
 ## 1.0.0 (2025-01-02)
 
 
