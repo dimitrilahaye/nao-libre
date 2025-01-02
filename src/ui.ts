@@ -69,7 +69,7 @@ function injectFormIn(main: Element) {
   main.insertAdjacentHTML(
     "beforeend",
     `
-      <form>
+      <form class="search-form">
         <div class="field">
           <label class="label">Code de l'arrêt</label>
           <p class="control has-icons-right">
@@ -81,7 +81,7 @@ function injectFormIn(main: Element) {
         </div>
         <div class="field">
           <div class="control">
-            <button type="button" disabled class="search button is-link is-fullwidth">Rechercher</button>
+            <button type="submit" disabled class="search button is-link is-fullwidth">Rechercher</button>
           </div>
         </div>
       </form>
@@ -89,11 +89,15 @@ function injectFormIn(main: Element) {
     `
   );
   const button = document.querySelector(".search");
+  const form = document.querySelector(".search-form");
   const input = document.querySelector(".stop");
   const reset = document.querySelector(".delete");
   const openExampleModalButton = document.querySelector(".example-modal-open");
   if (button === null) {
-    throw new Error("no button");
+    throw new Error("no search button");
+  }
+  if (form === null) {
+    throw new Error("no search form");
   }
   if (input === null) {
     throw new Error("no input");
@@ -120,7 +124,8 @@ function injectFormIn(main: Element) {
       reset.classList.add("is-hidden");
     }
   });
-  button.addEventListener("click", () => {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
     const stop = (input as HTMLInputElement).value;
     const validateStop = /^[a-zA-Z]{4}(1|2)?$/;
     if (validateStop.test(stop) === false) {
