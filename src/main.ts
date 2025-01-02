@@ -17,6 +17,7 @@ import {
   injectFormIn,
   injectGoToSearchButtonIn,
   injectErrorMessageIn,
+  initializeRefresh,
 } from "./ui";
 
 injectYearInFooter(elements.yearElement);
@@ -37,11 +38,15 @@ try {
       for (const waiting of data) {
         injectWaitingIn(waiting, elements.main);
       }
+      initializeRefresh();
       injectGoToSearchButtonIn(elements.main);
     }
   }
 } catch (e) {
-  injectErrorMessageIn(`Erreur: ${(e as Error).message}`, elements.main);
+  injectErrorMessageIn(
+    `Erreur: ${(e as Error).message ?? "Une erreur est survenue."}`,
+    elements.main
+  );
 } finally {
   hideLoader();
 }

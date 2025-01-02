@@ -138,12 +138,14 @@ function injectFormIn(main: Element) {
 }
 
 function openExampleModal() {
-  const exampleModal = document.querySelector('#example-modal');
+  const exampleModal = document.querySelector("#example-modal");
   if (exampleModal === null) {
-    throw new Error('no example modal');
+    throw new Error("no example modal");
   }
-  exampleModal.classList.add('is-active');
-  const closeExampleModalButton = document.querySelector(".example-modal-close");
+  exampleModal.classList.add("is-active");
+  const closeExampleModalButton = document.querySelector(
+    ".example-modal-close"
+  );
   if (closeExampleModalButton === null) {
     throw new Error("no close example modal button");
   }
@@ -153,11 +155,11 @@ function openExampleModal() {
 }
 
 function closeExampleModal() {
-  const exampleModal = document.querySelector('#example-modal');
+  const exampleModal = document.querySelector("#example-modal");
   if (exampleModal === null) {
-    throw new Error('no example modal');
+    throw new Error("no example modal");
   }
-  exampleModal.classList.remove('is-active');
+  exampleModal.classList.remove("is-active");
 }
 
 function injectGoToSearchButtonIn(main: Element) {
@@ -221,7 +223,6 @@ function injectWaitingIn(waiting: Waiting, main: Element) {
         </div>  
     `
   );
-  initializeRefresh();
 }
 
 function getStop() {
@@ -239,4 +240,5 @@ export {
   injectWaitingIn,
   showLoaderIn,
   hideLoader,
+  initializeRefresh,
 };
