@@ -18,10 +18,16 @@ npm run dev
 
 ## Usage
 
-Ajouter le `query parameter` "_arret_" dans l'url avec le code de l'arrêt dont vous souhaitez les temps d'attente.
+Remplissez le formulaire avec le code de votre arrêt. Validez. Et voilà :)
 
-Example : `https://nao-libre.vercel.app/?arret=AMER2`
+Dans l'idéal, chaque arrêt du réseau Naolib serait pourvu d'un QR Code dirigeant vers la liste des temps d'attente spécifiques de l'arrêt.
 
-Ce projet est prévu pour fonctionner avec des QR Codes installés près des arrêts du réseau Naolib.
+Mais pour des raisons évidentes (de coût, de temps, de légalité), je me suis tourné vers l'implémentation d'un formulaire.
 
 Les codes de chaque arrêt peuvent être récupérés via un call API ici `https://open.tan.fr/ewp/arrets.json`.
+
+## Screenshots
+
+<img src="readme/2.png" width="25%">
+<img src="readme/3.png" width="25%">
+<img src="readme/4.png" width="25%">
