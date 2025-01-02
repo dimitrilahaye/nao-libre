@@ -1,6 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
+
+### 1.1.4 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* migrate from standard-version to commit-and-tag-version ([f299cff](https://github.com/dimitrilahaye/nao-libre/commit/f299cff0129c8525b24857e259a6b63e40a1bb93))
 
 ### 1.1.3 (2025-01-02)
 
