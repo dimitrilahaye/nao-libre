@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.1.0 (2025-01-02)
+
+
+### ✨ Features
+
+* add Vercel analytics ([462bad9](https://github.com/dimitrilahaye/nao-libre/commit/462bad9da0482957d17b00cb20104c59a0895a70))
+
 ### 1.0.1 (2025-01-02)
 
 
