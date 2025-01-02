@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.7 (2025-01-02)
+
+
+### 📦 Refactor
+
+* **ui:** use submit event for search form ([64fb07a](https://github.com/dimitrilahaye/nao-libre/commit/64fb07ab0d9a52c1056616dfee1b7d36ba4faab7))
+
 ## 1.1.6 (2025-01-02)
 
 
