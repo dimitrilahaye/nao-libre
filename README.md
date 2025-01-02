@@ -24,7 +24,7 @@ Dans l'idéal, chaque arrêt du réseau Naolib serait pourvu d'un QR Code dirige
 
 Mais pour des raisons évidentes (de coût, de temps, de légalité), je me suis tourné vers l'implémentation d'un formulaire.
 
-Les codes de chaque arrêt peuvent être récupérés via un call API ici `https://open.tan.fr/ewp/arrets.json`.
+Les codes de chaque arrêt peuvent être récupérés via un call API ici [https://open.tan.fr/ewp/arrets.json](https://open.tan.fr/ewp/arrets.json). Mais ils se trouvent surtout imprimés sur chaque fiche horaire aux arrêts de bus / tram.
 
 ## Screenshots
 
