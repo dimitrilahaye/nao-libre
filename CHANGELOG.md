@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.5 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency commit-and-tag-version to v12 ([#5](https://github.com/dimitrilahaye/nao-libre/issues/5)) ([5b14921](https://github.com/dimitrilahaye/nao-libre/commit/5b149212bbba75ca666c7774b342eebb2e05388d))
+
 ### 1.1.4 (2025-01-02)
 
 
