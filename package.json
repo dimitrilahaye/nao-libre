@@ -20,6 +20,15 @@
     "preview": "vite preview",
     "release": "standard-version"
   },
+  "standard-version": {
+    "types": [
+      { "type": "feat", "section": "✨ Features", "hidden": false },
+      { "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },
+      { "type": "chore", "section": "🛠️ Maintenance", "hidden": false },
+      { "type": "refactor", "section": "📦 Refactor", "hidden": false },
+      { "type": "docs", "section": "📚 Documentation", "hidden": false }
+    ]
+  },
   "devDependencies": {
     "standard-version": "^9.5.0",
     "typescript": "~5.6.2",
