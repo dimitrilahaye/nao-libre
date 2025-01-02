@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.2 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency vite to ^6.0.6 ([06d4029](https://github.com/dimitrilahaye/nao-libre/commit/06d4029cd8d99823bee014dbff16a2fb1d007102))
+
 ### 1.1.1 (2025-01-02)
 
 
