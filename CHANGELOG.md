@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.1.8 (2025-01-02)
+
+
+### 📚 Documentation
+
+* **readme:** improve screenshots preview ([ac0dc47](https://github.com/dimitrilahaye/nao-libre/commit/ac0dc47d753b5ebc30c789186963cb6cdfe88b95))
+
 ## 1.1.7 (2025-01-02)
 
 
