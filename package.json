@@ -17,9 +17,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "standard-version"
   },
   "devDependencies": {
+    "standard-version": "^9.5.0",
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
     "vite-plugin-pwa": "^0.21.1"
