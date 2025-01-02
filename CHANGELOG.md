@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.1 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* add pull_request workflow ([e53751b](https://github.com/dimitrilahaye/nao-libre/commit/e53751b565f734cce8ec4327c45e950af7c108c5))
+
 ## 1.1.0 (2025-01-02)
 
 
