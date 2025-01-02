@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "author": "Dimitri Lahaye <contact@dimitrilahaye.net>",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/dimitrilahaye/nao-libre/issues",
     "email": "contact@dimitrilahaye.net"
