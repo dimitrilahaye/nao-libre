@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.1.3 (2025-01-02)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency typescript to ~5.7.2 ([53c2faf](https://github.com/dimitrilahaye/nao-libre/commit/53c2fafcbffd890063c0606db9c0be0f62d8ca0b))
+
 ### 1.1.2 (2025-01-02)
 
 
