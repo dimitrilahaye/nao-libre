@@ -18,9 +18,9 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "release": "standard-version"
+    "release": "commit-and-tag-version"
   },
-  "standard-version": {
+  "commit-and-tag-version": {
     "types": [
       {
         "type": "feat",
@@ -50,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "standard-version": "^9.5.0",
+    "commit-and-tag-version": "^9.5.0",
     "typescript": "~5.7.2",
     "vite": "^6.0.6",
     "vite-plugin-pwa": "^0.21.1"
