@@ -1,7 +1,7 @@
 {
   "name": "nao-lib",
   "private": true,
-  "version": "1.1.11",
+  "version": "1.1.12",
   "type": "module",
   "author": "Dimitri Lahaye <contact@dimitrilahaye.net>",
   "license": "GPL-3.0",
