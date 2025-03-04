@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.2.0 (2025-03-04)
+
+
+### ✨ Features
+
+* **form:** adapt form search to new stop code ([7b261c6](https://github.com/dimitrilahaye/nao-libre/commit/7b261c695a036d78ed22ebab4361564cb3d7d41c))
+
 ## 1.1.12 (2025-03-02)
 
 
