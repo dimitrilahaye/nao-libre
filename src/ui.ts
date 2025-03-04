@@ -127,7 +127,7 @@ function injectFormIn(main: Element) {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const stop = (input as HTMLInputElement).value;
-    const validateStop = /^[a-zA-Z]{4}(1|2)?$/;
+    const validateStop = /^[a-zA-Z]{4}\d?$/;
     if (validateStop.test(stop) === false) {
       injectErrorMessageIn(
         "Veuillez respecter le format requis. (Ex. AMER2, HBLI1, ABDU, etc.)",
