@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.2.2 (2025-04-11)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency vite-plugin-pwa to ^0.21.2 ([#14](https://github.com/dimitrilahaye/nao-libre/issues/14)) ([354c60c](https://github.com/dimitrilahaye/nao-libre/commit/354c60c68fc3c270af0f9679ec20b20c6a4341bb))
+
 ## 1.2.1 (2025-04-11)
 
 
