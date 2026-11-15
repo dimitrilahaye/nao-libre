@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.2.4 (2026-11-15)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency vite to ^6.4.6 ([#16](https://github.com/dimitrilahaye/nao-libre/issues/16)) ([b417825](https://github.com/dimitrilahaye/nao-libre/commit/b417825af0e5831c191b402c25d4446516983e6c))
+
 ## 1.2.3 (2025-04-11)
 
 
