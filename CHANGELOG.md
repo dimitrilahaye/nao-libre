@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.2.6 (2026-11-15)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update dependency typescript to v7 ([#30](https://github.com/dimitrilahaye/nao-libre/issues/30)) ([db586ea](https://github.com/dimitrilahaye/nao-libre/commit/db586ea8727a5f1f68adcadc60249b9d34ba35fc))
+
 ## 1.2.5 (2026-11-15)
 
 
