@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## 1.2.6 (2026-11-15)
+
+
+### 🛠️ Maintenance
+
+* **deps:** update actions/setup-node action to v7 ([#29](https://github.com/dimitrilahaye/nao-libre/issues/29)) ([fedfc18](https://github.com/dimitrilahaye/nao-libre/commit/fedfc188f4243a968f71e3ddec853f10457a7ada))
+
 ## 1.2.5 (2026-11-15)
 
 
